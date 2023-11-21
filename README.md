@@ -4,9 +4,9 @@ This code uses the Hipparcos Star Catalogue in order to build a classification m
 
 ## 1. Data analysis
 - Hertzprung-Russel diagram
-<img src="https://github.com/21sult/Hipparcos-Star-Classification/hrdiag.PNG" width="200" />
+<img src="https://github.com/21sult/Hipparcos-Star-Classification/blob/main/hrdiag.PNG" width="200" />
 - Distributions of stellar parallax, magnitude and spectral types
-<img src="https://github.com/21sult/Hipparcos-Star-Classification/sptypes.PNG" width="200" />
+<img src="https://github.com/21sult/Hipparcos-Star-Classification/blob/main/sptypes.PNG" width="200" />
 - Maps of right ascension vs. declination, and proper motion
 - Relationships between distance, magnitude and errors in parallax, right ascension, declination and proper motion
 - Preprocessing for the classification model.
@@ -14,5 +14,5 @@ This code uses the Hipparcos Star Catalogue in order to build a classification m
 ## 2. Classification Model (Random Forests)
 The typical AUC obtained was about 0.89, and the model is able to make accurate predictions on stellar types and subtypes.
 
- <img src="https://github.com/21sult/Hipparcos-Star-Classification/roc.PNG" width="200" />
+ <img src="https://github.com/21sult/Hipparcos-Star-Classification/blob/main/roc.PNG" width="200" />
 
